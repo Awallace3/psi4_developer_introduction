@@ -91,7 +91,7 @@ python ./conda/psi4-path-advisor.py env -n p4dev311 --python 3.11
 Then to create the environment, run:
 
 ```bash
-conda env create -n p4dev311 -f /theoryfs2/ds/amwalla3/gits/psi4_amw/env_p4dev311.yaml 
+conda env create -n p4dev311 -f ./env_p4dev311.yaml 
 ```
 Before any development session, you will need to activate the conda environment:
 ```bash
@@ -175,7 +175,7 @@ You can figure out a build procedure that works best for you. The above is just
 one way to build Psi4 for development, but better ways probably exist (if you
 have suggestions, please let me know!).
 
-Also, before you actually run calculations is is VERY important to set your
+Also, before you actually run calculations is VERY important to set your
 SCRATCH directory. This is where Psi4 will write temporary files during
 calculations. If you do not set this and work on a fileserver, you could
 cause a lot of network traffic and slow down the fileserver. To set the scratch

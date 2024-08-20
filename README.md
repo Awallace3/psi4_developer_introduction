@@ -13,4 +13,3 @@ for learning how to contribute to psi4.
 
 ## Connecting Other Code as a Psi4 Plugin
 
-
