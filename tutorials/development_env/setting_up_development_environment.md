@@ -22,12 +22,12 @@ Cloning means creating a local copy of the repository from GitHub to your comput
 ### Steps to Clone:
 
 1. **Navigate to your forked repository** on your GitHub account. The URL will
-   be `https://github.com/<<YOUR_USERNAME>>/psi4`.
+   be `https://github.com/<YOUR_USERNAME>/psi4`.
 2. **Click the "Code" button** to open the clone options.
 ![Clone Options](./images/code-button.webp)
 
 3. **Copy the URL** provided under the HTTPS tab. It will look like this:
-   `https://github.com/<<YOUR_USERNAME>>/psi4.git`
+   `https://github.com/<YOUR_USERNAME>/psi4.git`
 ![Clone URL CLI](./images/https-url-clone-cli.webp)
 
 

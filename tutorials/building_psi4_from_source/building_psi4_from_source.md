@@ -85,7 +85,7 @@ options:
 We want to create a standard, minimal psi4 environment, so we will run the following command:
 
 ```bash
-python ./conda/psi4-path-advisor.py env -n p4dev311 --python 3.11 --disable addons 
+python ./conda/psi4-path-advisor.py env -n p4dev311 --python 3.11  
 ```
 
 Then to create the environment, run:
